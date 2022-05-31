@@ -17,8 +17,8 @@ addNum = (a,b)=>{
   return a+b
 }
 
-let add = addNum(1,2);
-console.log(add);
+let addNumResult = addNum(1,2);
+console.log(addNumResult);
 
 interface Named {
   readonly name?: string|number;
